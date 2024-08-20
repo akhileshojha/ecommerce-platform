@@ -27,13 +27,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
-    "react/function-component-definition": [
-      "error",
-      {
-        "namedComponents": "function-declaration",
-        "unnamedComponents": "arrow-function"
-      }
-    ],
+    "react/function-component-definition": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   "settings": {
