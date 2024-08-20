@@ -7,6 +7,6 @@ const ProductDetails: React.FC = () => {
       <p>Details about the product go here.</p>
     </div>
   );
-}
+};
 
 export default ProductDetails;

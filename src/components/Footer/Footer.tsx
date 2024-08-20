@@ -6,6 +6,6 @@ const Footer: React.FC = () => {
       <p>&copy; 2024 E-commerce Platform</p>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -7,6 +7,6 @@ const Checkout: React.FC = () => {
       <p>Checkout process goes here.</p>
     </div>
   );
-}
+};
 
 export default Checkout;

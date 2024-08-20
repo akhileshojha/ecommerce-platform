@@ -9,6 +9,6 @@ const Home: React.FC = () => {
       <ProductCard />
     </div>
   );
-}
+};
 
 export default Home;
