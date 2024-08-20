@@ -28,7 +28,14 @@
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["state"]
+      }
+    ]
   },
   "settings": {
     "react": {
